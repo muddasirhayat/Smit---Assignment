@@ -1,0 +1,83 @@
+body {
+    background-color: #6fc1ff;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    color: white;
+    border: 2px solid #4f90ff;
+    border-radius: 20px;
+    width: 40%;
+    text-align: left;
+    padding: 20px;
+    margin-top: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+legend {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input {
+    border: 2px solid #6fc1ff;
+    border-radius: 5px;
+    width: 98%;
+    padding: 10px;
+}
+
+#sbtn,
+button {
+    background-color: #a6ff98;
+    padding: 2px;
+    width: 10%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#sbtn:hover {
+    background-color: #4f90ff;
+    color: white;
+
+}
+
+button:hover {
+    background-color: #4f90ff;
+    color: white;
+}
+
+#suit-color {
+    background-color: defult;
+    width: 10%;
+}
+
+#logo {
+    background-color: white;
+    color: cadetblue;
+    padding: 0px;
+    width: 11%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#mulS {
+    background-color: white;
+    color: black;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+#th1 {
+    margin-top: 20%;
+}
+
+#tp {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #2970e9;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superpowers & Abilities form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <form action="./Mission.html">
+            <fieldset>
+                <legend>Superpowers & Abilities</legend>
+                <label>Select Your Powers:</label>
+                <select name="power" multiple id="mulS" required>
+                    <option value="Strength">Strength</option>
+                    <option value="Invisibility">Invisibility</option>
+                    <option value="Flight">Flight</option>
+                    <option value="Telepathy">Telepathy</option>
+                    <option value="Teleportation">Teleportation</option>
+                </select>
+                <br>
+                <br>
+                <label for="sidekick">Choose a Sidekick:</label>
+                <select id="mulS" required>
+                    <option value="robin">Robin</option>
+                    <option value="ai-bot">AI Bot</option>
+                    <option value="talking-dog">Talking Dog</option>
+                </select>
+                <br>
+                <br>
+                <label for="power-level">Power Level: </label>
+                <input type="range" id="power-level" min="1" max="100">
+                <br>
+                <br>
+                <label for="origin-story">Your Origin Story:</label>
+                <textarea name="origin-story" id="mulS" required></textarea>
+                <br><br>
+                <button type="submit">Next</button>
+            </fieldset>
+        </form>
+    </center>
+</body>
+
+</html>

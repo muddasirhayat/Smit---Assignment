@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <form action="./Superpowers&Abilities.html">
+            <fieldset>
+                <legend>Profile Registration</legend>
+                <label for="firstName">First Name :</label>
+                <input type="text" name="firstName" placeholder="Enter your First Name">
+                <br><br>
+                <label for="firstName">Last Name :</label>
+                <input type="text" name="lastName" placeholder="Enter your Last Name">
+                <br><br>
+                <label for="superheroname">Super Hero Name : </label>
+                <input type="text" name="superheroname" placeholder="Enter your Super Hero Name" id="SHN">
+                <br>
+                <br>
+                <label for="dob">Select Date of Birth : </label>
+                <input type="date" id="dob">
+                <br>
+                <br>
+                <label for="Hero Type">Hero Type : </label>
+                <input type="radio" name="Hero type" value="Mutant " required>Mutant
+                <input type="radio" name="Hero type" value="Alien ">Alien
+                <input type="radio" name="Hero type" value="Super Human">Super Human
+                <input type="radio" name="Hero type" value="Cyber Human">Cyber Human
+                <br>
+                <br>
+                <label for="suit-color">Choose Suit Color:</label>
+                <input type="color" id="suit-color">
+                <br>
+                <br>
+                <label for="logo">Upload Your Logo:</label>
+                <input type="file" id="logo" accept="image/*">
+                <button type="submit" id="nextBtn">Next</button>
+
+            </fieldset>
+
+        </form>
+
+    </center>
+</body>
+
+</html>

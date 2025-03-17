@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Selection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <form action="./Thankyou.html">
+            <fieldset>
+                <legend>Mission Selection</legend>
+                <label for="mission">Choose a Mission:</label>
+                <select id="mulS">
+                    <option value="rescue">Rescue</option>
+                    <option value="space-battle">Space Battle</option>
+                    <option value="underwater-quest">Underwater Quest</option>
+                </select>
+                <input type="hidden" name="secret-code" value="SUPER123">
+                <br><br>
+                <label for="hero-email">Superhero Email:</label>
+                <input type="email" id="hero-email" required>
+                <br><br>
+                <label for="experience">Years of Experience:</label>
+                <input type="number" id="experience" min="0" required>
+                <br><br>
+                <label>Superhero Motto:</label>
+                <input type="text" id="motto" placeholder="With great power...">
+                <br>
+                <br>
+
+                <button type="submit">Register</button>
+            </fieldset>
+        </form>
+    </center>
+</body>
+
+</html>
