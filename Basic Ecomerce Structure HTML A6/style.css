@@ -1,0 +1,160 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #212529;
+    font-family: Arial, sans-serif;
+    flex-grow: 1;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    background-color: #F8F9FA;
+    padding: 10px;
+}
+
+.logo {
+    background-color: black;
+    color: white;
+    width: 20%;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #007BFF;
+    color: white;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.pages > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    flex-grow: 1;
+}
+
+.sidebar {
+    background-color: #F1F1F1;
+    width: 20%;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    color: #212529;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.productCards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: justify;
+    gap: 50px;
+    padding: 20px;
+}
+
+.products {
+    color: #212529;
+    padding: 15px;
+    border: 2px solid #212529;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+    background-color: #F8F9FA;
+    border-radius: 5px;
+}
+
+.products button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.products button:hover {
+    background-color: #00b35f;
+}
+
+.promotional {
+    text-align: center;
+    padding: 20px;
+}
+
+.promotionalMsg {
+    color: #007BFF;
+    font-size: 32px;
+}
+
+.promotionalText {
+    color: #FFC107;
+    font-size: 26px;
+}
+
+.footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-link {
+    color: #FFC107;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
