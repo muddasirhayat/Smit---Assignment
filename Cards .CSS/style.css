@@ -1,0 +1,124 @@
+body {
+    background-color: white;
+    color: rgb(248, 0, 0);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 10% 10px;
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 #1e1e2f;
+    padding: 40px 20px;
+    width: 90%;
+    max-width: 350px;
+    min-width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card img {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+
+  .card h1 {
+    font-family: serif;
+    font-size: clamp(20px, 5vw, 32px);
+    font-weight: bolder;
+    margin: 10px 0;
+  }
+
+  .card p {
+    word-spacing: 5px;
+    font-size: clamp(14px, 2vw, 18px);
+    padding: 15px 0;
+  }
+
+  .btn {
+    font-weight: bolder;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 50%;
+    padding: 10px;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+
+  /* Specific Card Hover Effects */
+  .twitter:hover {
+    background: linear-gradient(270deg, #1DA1F2, #14171A);
+    background-size: 400% 400%;
+    animation: gradientShiftTwitter 10s ease infinite;
+    color: white;
+  }
+
+  .instagram:hover {
+    background: linear-gradient(270deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+    background-size: 400% 400%;
+    animation: gradientShiftInstagram 10s ease infinite;
+    color: white;
+  }
+
+  .youtube:hover {
+    background: linear-gradient(270deg, #FF0000, #282828);
+    background-size: 400% 400%;
+    animation: gradientShiftYouTube 10s ease infinite;
+    color: white;
+  }
+
+  @keyframes gradientShiftTwitter {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  @keyframes gradientShiftInstagram {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  @keyframes gradientShiftYouTube {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .main-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card {
+      width: 90%;
+    }
+  }
